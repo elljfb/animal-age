@@ -252,3 +252,31 @@ table th {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column; /* Stack checkboxes vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Space between checkboxes */
+  margin: 10px 0;
+}
+
+.checkbox-group label {
+  display: flex; /* Make the label a flex container */
+  align-items: center; /* Align checkbox and text vertically */
+  gap: 5px; /* Space between checkbox and text */
+  font-size: 0.9em;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin: 0; /* Remove default margin */
+  width: 16px; /* Set checkbox size */
+  height: 16px;
+}
+
+/* Cost Breakdown */
+#cost-breakdown {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculate your pet's daily calorie needs with our Pet Calorie Calculator. Perfect for dogs, cats, rabbits, and more!">
+  <meta name="keywords" content="pet calorie calculator, dog calorie calculator, cat calorie calculator, rabbit calorie calculator, pet nutrition, pet feeding guide">
+  <meta name="author" content="animalage.info">
+  <title>Pet Calorie Calculator - Calculate Your Pet's Daily Calorie Needs | animalage.info</title>
+  <link rel="stylesheet" href="styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6766680365418435" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P36EXGBNS8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-P36EXGBNS8');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Pet Calorie Calculator</h1>
+    <p>Find out how many calories your pet needs each day!</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="pet-name-generator.html">Pet Name Generator</a></li>
+      <li><a href="pet-calorie-calculator.html">Pet Calorie Calculator</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Calculator Section -->
+<section class="calculator">
+    <div class="calculator">
+      <label for="species">Select Species:</label>
+      <select id="species">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="rabbit">Rabbit</option>
+        <option value="hamster">Hamster</option>
+        <option value="guinea-pig">Guinea Pig</option>
+      </select>
+  
+      <label for="weight">Weight:</label>
+      <div class="weight-input">
+        <input type="number" id="weight" min="0" step="0.1" required>
+        <select id="weight-unit">
+          <option value="kg">kg</option>
+          <option value="lbs">lbs</option>
+        </select>
+      </div>
+  
+      <label for="age">Age:</label>
+      <select id="age">
+        <option value="young">Puppy/Kitten/Young</option>
+        <option value="adult">Adult</option>
+        <option value="senior">Senior</option>
+      </select>
+  
+      <label for="activity">Activity Level:</label>
+      <select id="activity">
+        <option value="low">Low</option>
+        <option value="moderate">Moderate</option>
+        <option value="high">High</option>
+      </select>
+  
+      <button id="calculate-calories">Calculate Calories</button>
+  
+      <div id="calorie-result">
+        <h2>Your pet needs <span id="daily-calories">0</span> calories per day.</h2>
+      </div>
+    </div>
+  </section>
+
+    <!-- How It Works Section -->
+    <section class="content-section">
+      <h2>How Our Pet Calorie Calculator Works</h2>
+      <p>Our Pet Calorie Calculator uses scientifically validated formulas to estimate your pet's daily calorie needs. The calculation is based on:</p>
+      <ul>
+        <li><strong>Species:</strong> Different species have different metabolic rates.</li>
+        <li><strong>Weight:</strong> Heavier pets require more calories.</li>
+        <li><strong>Age:</strong> Young and senior pets have different energy needs.</li>
+        <li><strong>Activity Level:</strong> Active pets burn more calories than sedentary ones.</li>
+      </ul>
+    </section>
+
+    <!-- Tips for Healthy Feeding -->
+    <section class="content-section">
+      <h2>Tips for Healthy Feeding</h2>
+      <ul>
+        <li><strong>Measure portions:</strong> Use a measuring cup to avoid overfeeding.</li>
+        <li><strong>Choose high-quality food:</strong> Look for foods with real meat and minimal fillers.</li>
+        <li><strong>Monitor weight:</strong> Regularly check your pet's weight and adjust portions as needed.</li>
+        <li><strong>Consult your vet:</strong> Always consult your veterinarian for personalized advice.</li>
+      </ul>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section class="content-section">
+      <h2>Fun Facts About Pet Nutrition</h2>
+      <ul>
+        <li>Dogs are omnivores and can eat a variety of foods, including fruits and vegetables.</li>
+        <li>Cats are obligate carnivores and require a diet high in animal protein.</li>
+        <li>Rabbits need a diet rich in hay to maintain healthy digestion.</li>
+        <li>Overfeeding is the leading cause of obesity in pets.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 <a href="https://animalage.info">animalage.info</a> | Calculate Your Pet's Daily Calorie Needs</p>
+  </footer>
+  <script src="pet-calorie-calculator.js"></script>
+</body>
+</html>

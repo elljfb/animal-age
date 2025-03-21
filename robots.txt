@@ -1,0 +1,51 @@
+# robots.txt for animalage.info
+User-agent: *
+Allow: /
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.ico$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$
+Allow: /*.map$
+
+# Prevent access to system files and directories
+Disallow: /.git/
+Disallow: /.env
+Disallow: /.htaccess
+Disallow: /.htpasswd
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/themes/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /category/
+Disallow: /author/
+Disallow: /tag/
+Disallow: /feed/
+Disallow: /rss/
+Disallow: /search/
+Disallow: /404/
+Disallow: /403/
+Disallow: /500/
+Disallow: /503/
+
+# Sitemap location
+Sitemap: https://animalage.info/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10 

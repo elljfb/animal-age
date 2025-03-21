@@ -132,8 +132,6 @@ nav {
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
 }
 
 nav ul {
@@ -177,7 +175,6 @@ nav ul li a:hover {
   nav {
     padding: 0;
     position: relative;
-    justify-content: flex-end;
   }
 
   .nav-toggle {
@@ -188,6 +185,7 @@ nav ul li a:hover {
     font-size: 24px;
     z-index: 1001;
     text-align: right;
+    background: #4CAF50;
   }
 
   nav ul {

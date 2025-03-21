@@ -482,3 +482,244 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
+/* Search Section */
+.search-section {
+    padding: 20px;
+    text-align: center;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background: white;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+#searchInput:focus {
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.2);
+}
+
+#searchButton {
+    padding: 0 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 48px;
+}
+
+#searchButton:hover {
+    background: #45a049;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.search-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.search-results li:last-child {
+    border-bottom: none;
+}
+
+.search-results a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.search-results a:hover {
+    color: #4CAF50;
+}
+
+/* Popular Animals Section */
+.popular-animals {
+    padding: 20px;
+    text-align: center;
+}
+
+.popular-animals h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.animal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.animal-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.animal-button:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tools Section */
+.tools-section {
+    padding: 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.tools-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tool-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tool-card h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.tool-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-section {
+        padding: 20px;
+    }
+
+    #searchInput {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+
+    #searchButton {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .animal-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .animal-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .tools-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .tool-card {
+        padding: 20px;
+    }
+}
+
+.animal-list {
+    padding: 20px;
+}
+
+.animal-list .animal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.animal-card {
+    background: white;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: #45a049;
+}
+
+.animal-card h3 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+}
+
+.animal-card p {
+    margin: 0;
+    color: #666;
+}

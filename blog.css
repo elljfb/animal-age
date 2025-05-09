@@ -236,4 +236,38 @@
     .blog-preview-content {
         padding: 15px;
     }
+}
+
+/* About Author Section on Blog Index */
+.about-author {
+    max-width: 800px; /* Same as .blog-posts for consistency */
+    margin: 20px auto; /* Centering and some vertical space */
+    padding: 20px;
+    background-color: #f8f9fa; /* A light grey background */
+    border: 1px solid #e0e0e0; /* A subtle border */
+    border-radius: 8px; /* Rounded corners like .blog-preview */
+    text-align: center; /* Center the text inside */
+}
+
+.about-author .author-selfie {
+    width: 150px; /* Or a size you prefer */
+    height: 150px;
+    border-radius: 50%; /* This makes it circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Allows centering with margin auto */
+    margin: 0 auto 20px auto; /* Centers the image and adds space below */
+    border: 3px solid #fff; /* Optional: adds a white border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.about-author h2 {
+    color: #333;
+    font-size: 1.5em; /* Slightly smaller than blog post titles */
+    margin-bottom: 15px;
+}
+
+.about-author p {
+    color: #555; /* Slightly darker than .blog-preview-meta for readability */
+    line-height: 1.6;
+    margin-bottom: 0; /* No bottom margin if it's the last element */
 } 

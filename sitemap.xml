@@ -1205,10 +1205,10 @@
     <lastmod>2025-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>  
+  </url>
   <url>
     <loc>https://animalage.info/blog/</loc>
-    <lastmod>2025-03-21</lastmod>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1223,4 +1223,17 @@
     <lastmod>2025-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://animalage.info/blog/new-charity-shop-opening-retford.html</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://animalage.info/blog/raf-fighter-plane-flypast-in-nottinghamshire-this-weekend.html</loc>
+    <lastmod>2025-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

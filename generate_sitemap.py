@@ -16,7 +16,7 @@ def generate_sitemap():
     
     # List of main pages
     main_pages = [
-        'index.html',
+        '/',
         'pet-name-generator.html',
         'pet-calorie-calculator.html',
         'pet-cost-calculator.html',
@@ -37,7 +37,7 @@ def generate_sitemap():
     
     # Get all animal HTML files
     animal_files = [f for f in os.listdir('.') if f.endswith('.html') 
-                   and f not in main_pages and f != 'index.html']
+                   and f not in main_pages and f != '/']
     
     # Add animal pages to sitemap
     for page in animal_files:

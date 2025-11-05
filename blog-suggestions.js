@@ -1,7 +1,7 @@
 // Function to get all blog posts
 async function getAllBlogPosts() {
     try {
-        const response = await fetch('/blog/index.html');
+        const response = await fetch('/blog//');
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');

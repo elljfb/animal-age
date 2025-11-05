@@ -248,6 +248,11 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px solid var(--primary-color);
 }
 
+th, td {
+    padding: 10px;
+    border: 1px solid;
+  }
+
 /* ================================
    NEWS CARDS
    ================================ */

@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     shareButtons.forEach(button => {
         button.addEventListener('click', function() {
             const platform = this.getAttribute('data-platform');
-            const url = window.location.href;
+            const url = 'https://retfordreport.co.uk/vote-retfordian-of-the-year-2025.html';
             const title = document.title;
             
             let shareUrl = '';
